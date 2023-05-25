@@ -1,4 +1,6 @@
 Step 1: install Flask using pip install flask
 Step 2: Create app.py file, import flask and create a route
 Step 3: Create a distributed_app.py file and write a response 
-Step 4: Open  http://localhost:5000/hello for output. 
+step 4: after that run "python3 app.py"
+step 5: run in new terminal "python3 distributed_app"
+Step 6: Open  http://localhost:5000/hello for output. 

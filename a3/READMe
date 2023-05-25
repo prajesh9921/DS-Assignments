@@ -2,7 +2,7 @@ To run the code follow the steps
 step 1: pip install mpi4py numpy
 step 2: mpirun -np <number_of_processors> python DistributedSum.py
         Replace <number_of_processors> with the desired number of MPI processes you want to run.
-        Eg: mpirun -np 4 python DistributedSum.py
+        Eg: mpirun -np 4 python3 DistributedSum.py
         
 Explanation of output: the output of 5050 is correct for the given code. The code is designed to calculate the sum of numbers from 1 to n using MPI (Message Passing Interface) for distributed computing.
 
